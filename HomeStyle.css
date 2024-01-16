@@ -1,0 +1,115 @@
+ *{ 
+    margin:0px;
+    padding: 0px;
+ } 
+  
+body{
+   background-image:url('img/Restaurant.jpg');
+   width:100%;
+   height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overlay{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5);
+   background-size: cover;
+   overflow: hidden;
+}
+.main{
+    position: relative;
+    top:150px;
+    left:50px;
+    color:white;
+
+    
+}
+
+.greeting{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:50px;
+    text-align: center;
+    line-height: 100px;
+}
+.greeting span{
+    color:violet;
+    font-size:60px ;
+}
+.orderItem{
+    position: relative;
+    text-align: center;
+    font-size:30px;
+}
+.textBurger{
+    color:orange;
+    font-size:40px;
+}
+.textMilkshake{
+    color:skyblue;
+    font-size: 40px;
+}
+.textCake{
+    color:wheat;
+    font-size: 40px;
+}
+.textCoffee{
+    color:brown;
+    font-size: 40px;
+}
+.main a{
+    position: relative;
+    top:30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.7s ease;
+     border-radius: 15px;
+    text-decoration: none;
+    border:none;
+    background-color: thistle;
+    color:black;
+    padding:15px ;
+}
+.main a:hover{
+    color:violet;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.logo{
+    color:violet;
+    font-size:40px;
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+nav{
+    
+    width:100%;
+    height:100px;
+    line-height: 80px;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    
+    
+}
+ul{
+    margin:0px;
+}
+ul li{
+    list-style-type:none;
+    float:left;
+    padding:0px 10px;
+}
+li a{
+    text-decoration: none;
+    font-size:25px;
+    color:#fff;
+}
+a:hover{
+    font-size:35px ;
+    color:violet;
+    transition: 0.5s all ease-in-out;
+}
+

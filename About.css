@@ -1,0 +1,92 @@
+*{ 
+    margin:0px;
+    padding: 0px;
+ } 
+  /* background */
+body{
+    background:url('img/Restaurant.jpg') center center fixed;
+    background-size: cover;  
+   
+}
+ .overlay{
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.5) center center fixed;
+    background-size: cover;
+
+} 
+.logo{
+    color:violet;
+    font-size:40px;
+    padding-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+/* Navigation bar */
+nav{
+    
+    width:100%;
+    height:100px;
+    line-height: 80px;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    
+    
+}
+ul{
+    margin:0px;
+}
+ul li{
+    list-style-type:none;
+    float:left;
+    padding:0px 10px;
+}
+li a{
+    text-decoration: none;
+    font-size:25px;
+    color:#fff;
+}
+li a:hover{
+    font-size:35px ;
+    color:violet;
+    transition: 0.5s all ease-in-out;
+} 
+
+.Info{
+    font-size:30px;
+    line-height: 40px;
+    color: White;
+    background-color: black;
+    display:block;
+    padding:90px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:50px;
+    border-radius: 30px;
+
+}
+.Chef{
+    position:absolute;
+    left:800px;
+    top:250px;
+   
+}
+.Chef img{
+    width:80%;
+    height:50%;
+    border-radius: 20px;
+}
+.contact{
+    font-size:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logoImage{
+    position: absolute;
+    top:500px;
+    left:150px;
+    margin:0px;
+}
+img{width:30px;
+    height:30px;
+}
